@@ -1,0 +1,16 @@
+<%= render partial: 'layouts/header', locals: { title: 'Simple Blog', subtitle: 'Life, the universe and everything' } %>
+
+<div id="posts">
+  <% @posts.each do |post| %>
+    <p>
+      <%= link_to post.title, post, class: 'post-link' %>
+    </p>
+    <p>
+      <%= post.body.truncate(150, :omission => "...") %>
+    </p>
+  <% end %>
+</div>
+
+<p>
+  <%= link_to "New post &#8594;".html_safe, new_post_path if current_user %>
+</p>
