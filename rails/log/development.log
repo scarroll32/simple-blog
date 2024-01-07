@@ -1410,3 +1410,399 @@ Processing by AboutController#index as HTML
 Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 1821)
 
 
+Started GET "/about/index" for ::1 at 2024-01-07 12:08:01 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 6.1ms | Allocations: 3588)
+  Rendered layouts/_header.html.erb (Duration: 6.7ms | Allocations: 3891)
+  Rendered about/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 4284)
+  Rendered layout layouts/application.html.erb (Duration: 222.0ms | Allocations: 99176)
+Completed 200 OK in 1544ms (Views: 230.9ms | ActiveRecord: 0.0ms | Allocations: 1077298)
+
+
+Started GET "/about/index" for ::1 at 2024-01-07 12:08:09 +0100
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 12.4ms | Allocations: 2767)
+  Rendered layouts/_header.html.erb (Duration: 12.5ms | Allocations: 2838)
+  Rendered about/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 2908)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 4006)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 4250)
+
+
+Started GET "/posts" for ::1 at 2024-01-07 12:08:19 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.5ms | Allocations: 339)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 410)
+  [1m[36mPost Load (1.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:4
+  Rendered posts/index.html.erb within layouts/application (Duration: 39.0ms | Allocations: 13324)
+  Rendered layout layouts/application.html.erb (Duration: 40.6ms | Allocations: 14440)
+Completed 200 OK in 63ms (Views: 25.4ms | ActiveRecord: 16.2ms | Allocations: 19091)
+
+
+Started GET "/about/index" for ::1 at 2024-01-07 12:08:20 +0100
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.5ms | Allocations: 316)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 387)
+  Rendered about/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 457)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1555)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 1798)
+
+
+Started GET "/about/index" for ::1 at 2024-01-07 12:09:06 +0100
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.4ms | Allocations: 325)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 396)
+  Rendered about/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 466)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1564)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1803)
+
+
+Started GET "/about/index" for ::1 at 2024-01-07 12:09:08 +0100
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.4ms | Allocations: 325)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 396)
+  Rendered about/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 466)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1564)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 1803)
+
+
+Started GET "/about/index" for ::1 at 2024-01-07 12:54:24 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 8.0ms | Allocations: 1933)
+  Rendered layouts/_header.html.erb (Duration: 8.6ms | Allocations: 2236)
+  Rendered about/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 2629)
+  Rendered layout layouts/application.html.erb (Duration: 58.0ms | Allocations: 37583)
+Completed 200 OK in 277ms (Views: 61.6ms | ActiveRecord: 0.0ms | Allocations: 321908)
+
+
+Started GET "/about/index" for ::1 at 2024-01-07 12:54:28 +0100
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.5ms | Allocations: 327)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 398)
+  Rendered about/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 468)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1566)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 1815)
+
+
+Started GET "/posts" for ::1 at 2024-01-07 12:54:29 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.6ms | Allocations: 336)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 407)
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:4
+  Rendered posts/index.html.erb within layouts/application (Duration: 48.9ms | Allocations: 13119)
+  Rendered layout layouts/application.html.erb (Duration: 50.8ms | Allocations: 14232)
+Completed 200 OK in 60ms (Views: 40.6ms | ActiveRecord: 11.2ms | Allocations: 17074)
+
+
+Started GET "/about/index" for ::1 at 2024-01-07 12:54:30 +0100
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.6ms | Allocations: 325)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 396)
+  Rendered about/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 466)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1564)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 1812)
+
+
+Started GET "/users/sign_in" for ::1 at 2024-01-07 12:54:31 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 18.4ms | Allocations: 3584)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 4746)
+Completed 200 OK in 42ms (Views: 21.9ms | ActiveRecord: 2.6ms | Allocations: 15267)
+
+
+Started GET "/posts" for ::1 at 2024-01-07 12:54:33 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.5ms | Allocations: 319)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 390)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:4
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 998)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2096)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.3ms | Allocations: 2363)
+
+
+Started GET "/posts/1" for ::1 at 2024-01-07 12:54:35 +0100
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:57:in `set_post'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/_post.html.erb (Duration: 0.4ms | Allocations: 186)
+  Rendered posts/show.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1215)
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 2314)
+Completed 200 OK in 35ms (Views: 26.3ms | ActiveRecord: 0.4ms | Allocations: 5367)
+
+
+Started GET "/posts" for ::1 at 2024-01-07 12:54:38 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.8ms | Allocations: 319)
+  Rendered layouts/_header.html.erb (Duration: 2.0ms | Allocations: 390)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:4
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 988)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2086)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.3ms | Allocations: 2344)
+
+
+Started GET "/" for ::1 at 2024-01-07 13:45:52 +0100
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/tmp/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+):
+  
+activerecord (7.1.2) lib/active_record/connection_adapters/postgresql_adapter.rb:80:in `rescue in new_client'
+activerecord (7.1.2) lib/active_record/connection_adapters/postgresql_adapter.rb:68:in `new_client'
+activerecord (7.1.2) lib/active_record/connection_adapters/postgresql_adapter.rb:980:in `connect'
+activerecord (7.1.2) lib/active_record/connection_adapters/postgresql_adapter.rb:992:in `reconnect'
+activerecord (7.1.2) lib/active_record/connection_adapters/abstract_adapter.rb:685:in `block in reconnect!'
+activesupport (7.1.2) lib/active_support/concurrency/null_lock.rb:9:in `synchronize'
+activerecord (7.1.2) lib/active_record/connection_adapters/abstract_adapter.rb:684:in `reconnect!'
+activerecord (7.1.2) lib/active_record/connection_adapters/abstract_adapter.rb:788:in `verify!'
+activerecord (7.1.2) lib/active_record/connection_adapters/abstract_adapter.rb:795:in `connect!'
+activerecord (7.1.2) lib/active_record/connection_adapters/abstract_adapter.rb:1001:in `block in with_raw_connection'
+activesupport (7.1.2) lib/active_support/concurrency/null_lock.rb:9:in `synchronize'
+activerecord (7.1.2) lib/active_record/connection_adapters/abstract_adapter.rb:1000:in `with_raw_connection'
+activerecord (7.1.2) lib/active_record/connection_adapters/abstract_adapter.rb:1113:in `valid_raw_connection'
+activerecord (7.1.2) lib/active_record/connection_adapters/postgresql_adapter.rb:616:in `get_database_version'
+activerecord (7.1.2) lib/active_record/connection_adapters/schema_cache.rb:374:in `database_version'
+activerecord (7.1.2) lib/active_record/connection_adapters/schema_cache.rb:70:in `database_version'
+activerecord (7.1.2) lib/active_record/connection_adapters/schema_cache.rb:200:in `database_version'
+activerecord (7.1.2) lib/active_record/connection_adapters/abstract_adapter.rb:871:in `database_version'
+activerecord (7.1.2) lib/active_record/connection_adapters/postgresql_adapter.rb:644:in `check_version'
+activerecord (7.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:675:in `new_connection'
+activerecord (7.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:720:in `checkout_new_connection'
+activerecord (7.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:699:in `try_to_checkout_new_connection'
+activerecord (7.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:657:in `acquire_connection'
+activerecord (7.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+activerecord (7.1.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `connection'
+activerecord (7.1.2) lib/active_record/migration/pending_migration_connection.rb:8:in `establish_temporary_connection'
+activerecord (7.1.2) lib/active_record/migration.rb:773:in `block in pending_migrations'
+activerecord (7.1.2) lib/active_record/migration.rb:772:in `each'
+activerecord (7.1.2) lib/active_record/migration.rb:772:in `pending_migrations'
+activerecord (7.1.2) lib/active_record/migration.rb:751:in `check_pending_migrations'
+activerecord (7.1.2) lib/active_record/migration.rb:643:in `block (2 levels) in call'
+activesupport (7.1.2) lib/active_support/file_update_checker.rb:85:in `execute'
+activerecord (7.1.2) lib/active_record/migration.rb:648:in `block in call'
+activerecord (7.1.2) lib/active_record/migration.rb:640:in `synchronize'
+activerecord (7.1.2) lib/active_record/migration.rb:640:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.8) lib/rack/method_override.rb:28:in `call'
+rack (3.0.8) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.2) lib/rails/engine.rb:529:in `call'
+puma (6.4.1) lib/puma/configuration.rb:272:in `call'
+puma (6.4.1) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.1) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.1) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.1) lib/puma/server.rb:464:in `process_client'
+puma (6.4.1) lib/puma/server.rb:245:in `block in run'
+puma (6.4.1) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/" for ::1 at 2024-01-07 13:46:36 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (4.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 10.3ms | Allocations: 1935)
+  Rendered layouts/_header.html.erb (Duration: 11.6ms | Allocations: 2238)
+  [1m[36mPost Load (4.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:4
+  Rendered posts/index.html.erb within layouts/application (Duration: 60.4ms | Allocations: 15163)
+  Rendered layout layouts/application.html.erb (Duration: 107.8ms | Allocations: 50112)
+Completed 200 OK in 430ms (Views: 85.0ms | ActiveRecord: 27.9ms | Allocations: 336778)
+
+
+Started GET "/" for ::1 at 2024-01-07 13:49:26 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.3ms | Allocations: 190)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 261)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:4
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 867)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1975)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 2240)
+
+
+Started GET "/" for ::1 at 2024-01-07 13:50:24 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.3ms | Allocations: 190)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 261)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:4
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 865)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1966)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 2230)
+
+
+Started GET "/" for ::1 at 2024-01-07 13:53:20 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.4ms | Allocations: 190)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 261)
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:4
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 865)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1966)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.4ms | Allocations: 2230)
+
+
+Started GET "/" for ::1 at 2024-01-07 13:57:32 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.3ms | Allocations: 190)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 261)
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:4
+  Rendered posts/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 865)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1966)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.4ms | Allocations: 2230)
+
+
+Started GET "/" for ::1 at 2024-01-07 14:04:11 +0100
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.3ms | Allocations: 190)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 261)
+  [1m[36mPost Load (31.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:4
+  Rendered posts/index.html.erb within layouts/application (Duration: 33.2ms | Allocations: 3540)
+  Rendered layout layouts/application.html.erb (Duration: 35.1ms | Allocations: 4656)
+Completed 200 OK in 36ms (Views: -19.7ms | ActiveRecord: 55.1ms | Allocations: 4912)
+
+
+Started GET "/" for ::1 at 2024-01-07 14:26:45 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 5.7ms | Allocations: 783)
+  Rendered layouts/_header.html.erb (Duration: 7.0ms | Allocations: 1086)
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:4
+  Rendered posts/index.html.erb within layouts/application (Duration: 38.3ms | Allocations: 14008)
+  Rendered layout layouts/application.html.erb (Duration: 87.2ms | Allocations: 48970)
+Completed 200 OK in 396ms (Views: 83.4ms | ActiveRecord: 9.5ms | Allocations: 335595)
+
+
+Started GET "/posts/1" for ::1 at 2024-01-07 14:27:00 +0100
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:57:in `set_post'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/_post.html.erb (Duration: 0.4ms | Allocations: 187)
+  Rendered posts/show.html.erb within layouts/application (Duration: 7.7ms | Allocations: 2108)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3192)
+Completed 200 OK in 30ms (Views: 9.6ms | ActiveRecord: 0.9ms | Allocations: 21190)
+
+
+Started GET "/posts/1" for ::1 at 2024-01-07 14:27:04 +0100
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:57:in `set_post'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/_post.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered posts/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 453)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1537)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.2ms | Allocations: 2215)
+
+
+Started GET "/about/index" for ::1 at 2024-01-07 14:27:09 +0100
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered layouts/_nav.html.erb (Duration: 0.5ms | Allocations: 315)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 386)
+  Rendered about/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 570)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1682)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2205)
+
+
+Started GET "/users/sign_in" for ::1 at 2024-01-07 14:27:12 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 7.9ms | Allocations: 2689)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3851)
+Completed 200 OK in 29ms (Views: 11.7ms | ActiveRecord: 2.4ms | Allocations: 14086)
+
+
+Started GET "/posts/2" for ::1 at 2024-01-07 14:27:17 +0100
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:57:in `set_post'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/_post.html.erb (Duration: 0.1ms | Allocations: 20)
+  Rendered posts/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 445)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1544)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.3ms | Allocations: 2224)
+
+
