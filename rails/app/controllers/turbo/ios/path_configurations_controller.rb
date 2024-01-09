@@ -10,7 +10,8 @@ module Turbo
               {
                 patterns: [
                   "/new$",
-                  "/edit$"
+                  "/edit$",
+                  "/users/sign_in"
                 ],
                 properties: {
                   context: "modal"
