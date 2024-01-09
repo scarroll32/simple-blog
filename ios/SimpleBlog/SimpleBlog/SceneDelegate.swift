@@ -1,41 +1,22 @@
 import UIKit
 import Turbo
+import TurboNavigator
 
 let rootURL = URL(string: "http://localhost:3000")!
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
 
-    private let navigationController = UINavigationController()
-    private let session = Session()
-    
+    private lazy var navigator = TurboNavigator(delegate: self, pathConfiguration: pathConfiguration)
+
+    private let pathConfiguration = PathConfiguration(sources: [
+        .server(rootURL.appending(path: "turbo/ios/path_configuration.json"))
+    ])
+
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        window?.rootViewController = navigationController
-        TurboLog.debugLoggingEnabled = true
-        self.session.delegate = self
-        
-        let proposal = VisitProposal(url: rootURL, options: VisitOptions())
-        visit(proposal: proposal)
-    }
-    
-    private func visit(proposal: VisitProposal){
-        let visitable = VisitableViewController(url: proposal.url)
-        navigationController.pushViewController(visitable, animated: true)
-        session.visit(visitable)
+        window?.rootViewController = navigator.rootViewController
+        navigator.route(rootURL) // Kick off our app!
     }
 }
 
-extension SceneDelegate: SessionDelegate {
-    func session(_ session: Turbo.Session, didFailRequestForVisitable visitable: Turbo.Visitable, error: Error) {
-        print("Failed to visit page: \(error.localizedDescription)")
-    }
-    
-    func session(_ session: Turbo.Session, didProposeVisit proposal: Turbo.VisitProposal) {
-        visit(proposal: proposal)
-    }
-    
-    func sessionWebViewProcessDidTerminate(_ session: Turbo.Session) {
-        session.reload()
-    }
-    
-}
+extension SceneDelegate: TurboNavigationDelegate {}

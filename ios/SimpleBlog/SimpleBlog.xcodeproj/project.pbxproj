@@ -15,6 +15,7 @@
 		14E10C8E2B4ACB6A00C7BEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E10C8C2B4ACB6A00C7BEF1 /* LaunchScreen.storyboard */; };
 		14E4837E2B4AD108000D2B27 /* Turbo in Frameworks */ = {isa = PBXBuildFile; productRef = 14E4837D2B4AD108000D2B27 /* Turbo */; };
 		14E483812B4AD8C0000D2B27 /* Strada in Frameworks */ = {isa = PBXBuildFile; productRef = 14E483802B4AD8C0000D2B27 /* Strada */; };
+		14E483842B4DE0A3000D2B27 /* TurboNavigator in Frameworks */ = {isa = PBXBuildFile; productRef = 14E483832B4DE0A3000D2B27 /* TurboNavigator */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 			files = (
 				14E4837E2B4AD108000D2B27 /* Turbo in Frameworks */,
 				14E483812B4AD8C0000D2B27 /* Strada in Frameworks */,
+				14E483842B4DE0A3000D2B27 /* TurboNavigator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +92,7 @@
 			packageProductDependencies = (
 				14E4837D2B4AD108000D2B27 /* Turbo */,
 				14E483802B4AD8C0000D2B27 /* Strada */,
+				14E483832B4DE0A3000D2B27 /* TurboNavigator */,
 			);
 			productName = SimpleBlog;
 			productReference = 14E10C7E2B4ACB6800C7BEF1 /* SimpleBlog.app */;
@@ -122,6 +125,7 @@
 			packageReferences = (
 				14E4837C2B4AD108000D2B27 /* XCRemoteSwiftPackageReference "turbo-ios" */,
 				14E4837F2B4AD8C0000D2B27 /* XCRemoteSwiftPackageReference "strada-ios" */,
+				14E483822B4DE0A3000D2B27 /* XCRemoteSwiftPackageReference "TurboNavigator" */,
 			);
 			productRefGroup = 14E10C7F2B4ACB6800C7BEF1 /* Products */;
 			projectDirPath = "";
@@ -391,6 +395,14 @@
 				kind = branch;
 			};
 		};
+		14E483822B4DE0A3000D2B27 /* XCRemoteSwiftPackageReference "TurboNavigator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joemasilotti/TurboNavigator";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -403,6 +415,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 14E4837F2B4AD8C0000D2B27 /* XCRemoteSwiftPackageReference "strada-ios" */;
 			productName = Strada;
+		};
+		14E483832B4DE0A3000D2B27 /* TurboNavigator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14E483822B4DE0A3000D2B27 /* XCRemoteSwiftPackageReference "TurboNavigator" */;
+			productName = TurboNavigator;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

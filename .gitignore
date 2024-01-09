@@ -12,6 +12,7 @@ rails/.env*
 !rails/.env*.erb
 
 # Ignore all logfiles and tempfiles.
+rails/log/development.log
 rails/log/*
 rails/tmp/*
 !rails/log/.keep
