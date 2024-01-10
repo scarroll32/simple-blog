@@ -4,7 +4,7 @@ import WebKit
 
 extension BridgeComponent {
     static var allTypes: [BridgeComponent.Type] { [
-        // ButtonComponent.self
+        ButtonComponent.self
     ] }
 }
 

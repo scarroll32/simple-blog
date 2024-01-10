@@ -5,6 +5,6 @@
 <br>
 
 <div>
-  <%= link_to "Show this post", @post %> |
+  <%= button_to "Delete", @post, method: :delete, class: 'turbo-native-hidden', "data-controller": "bridge--button" %>
   <%= link_to "Back to posts", posts_path %>
 </div>
