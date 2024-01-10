@@ -1,4 +1,4 @@
-
+![Meetup image](Meetup_Turbo_native.png)
 
 Presented at `geneva.rb`, **The** [Geneva Ruby Meetup](https://www.meetup.com/geneva-rb/events/297635660/), on 10 January 2024. 
 
@@ -42,20 +42,3 @@ Presented at `geneva.rb`, **The** [Geneva Ruby Meetup](https://www.meetup.com/ge
 - Still a lot of boilerplate and configuration, but this is changing.
 - I played around a bit with Android, and it's doable, but not something I would want to do as a Hobby.
 
-
-
-A blog (blog-setup)
-
-Getting Started (tag: ios-setup)
-
-https://github.com/hotwired/turbo-ios/blob/main/Docs/QuickStartGuide.md
-
-Path Configuration (tag: modals)
-
-https://github.com/hotwired/turbo-ios/blob/main/Docs/PathConfiguration.md
-
-
-resources
-
-
-Example web app (not Rails)
