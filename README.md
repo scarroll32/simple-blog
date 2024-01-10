@@ -28,6 +28,7 @@ Presented at `geneva.rb`, **The** [Geneva Ruby Meetup](https://www.meetup.com/ge
 ### What is Turbo Native and Strada ?
 
 - Turbo ios wraps the iOS Webview in a native app
+  - [Turbo iOS Quick Start](https://github.com/hotwired/turbo-ios/blob/main/Docs/QuickStartGuide.md)
 - Strada bridges native components such as buttons to html / JS
   - already existed before Strada https://github.com/hotwired/turbo-ios/blob/main/Docs/Advanced.md#native---javascript-integration
   - Strada will likely be improved to reduce configuration code
