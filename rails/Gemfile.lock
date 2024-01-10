@@ -86,6 +86,8 @@ GEM
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
     crass (1.0.6)
+    cssbundling-rails (1.3.3)
+      railties (>= 6.0.0)
     date (3.3.4)
     debug (1.9.1)
       irb (~> 1.10)
@@ -111,10 +113,6 @@ GEM
       activesupport (>= 6.1)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    importmap-rails (2.0.1)
-      actionpack (>= 6.0.0)
-      activesupport (>= 6.0.0)
-      railties (>= 6.0.0)
     io-console (0.7.1)
     irb (1.11.0)
       rdoc
@@ -122,6 +120,8 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
+    jsbundling-rails (1.2.2)
+      railties (>= 6.0.0)
     json (2.7.1)
     language_server-protocol (3.17.0.3)
     lint_roller (1.1.0)
@@ -166,6 +166,11 @@ GEM
       ast (~> 2.4.1)
       racc
     pg (1.5.4)
+    propshaft (0.8.0)
+      actionpack (>= 7.0.0)
+      activesupport (>= 7.0.0)
+      rack
+      railties (>= 7.0.0)
     psych (5.1.2)
       stringio
     puma (6.4.1)
@@ -258,13 +263,6 @@ GEM
       rubocop-ast (>= 1.30.0, < 2.0)
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
-    sprockets (4.2.1)
-      concurrent-ruby (~> 1.0)
-      rack (>= 2.2.4, < 4)
-    sprockets-rails (3.4.2)
-      actionpack (>= 5.2)
-      activesupport (>= 5.2)
-      sprockets (>= 3.0.0)
     standard (1.33.0)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
@@ -312,18 +310,19 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  cssbundling-rails
   debug
   devise (~> 4.9)
   factory_bot_rails
   faker
-  importmap-rails
   jbuilder
+  jsbundling-rails
   pg (~> 1.1)
+  propshaft
   puma (>= 5.0)
   rails (~> 7.1.2)
   redis (>= 4.0.1)
   rspec-rails
-  sprockets-rails
   standard
   stimulus-rails
   turbo-rails

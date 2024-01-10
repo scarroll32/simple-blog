@@ -1,6 +1,8 @@
 import UIKit
 import Turbo
 import TurboNavigator
+import Strada
+import WebKit
 
 let rootURL = URL(string: "http://localhost:3000")!
 
@@ -14,9 +16,28 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     ])
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        configureTurbo()
         window?.rootViewController = navigator.rootViewController
         navigator.route(rootURL) // Kick off our app!
     }
+    
+    private func configureTurbo() {
+        // Add our component names to the user agent for Strada on the web.
+        TurboConfig.shared.userAgent +=
+            " \(Strada.userAgentSubstring(for: BridgeComponent.allTypes))"
+
+        TurboConfig.shared.makeCustomWebView = { configuration in
+            let webView = WKWebView(frame: .zero, configuration: configuration)
+            Bridge.initialize(webView) // Initialize Strada.
+            webView.isInspectable = true // Enable debugging in desktop Safari.
+            return webView
+        }
+    }
 }
 
-extension SceneDelegate: TurboNavigationDelegate {}
+extension SceneDelegate: TurboNavigationDelegate {
+    // Always return our Strada-enabled controller.
+    func handle(proposal: VisitProposal) -> ProposalResult {
+        .acceptCustom(TurboWebViewController(url: proposal.url))
+    }
+}
