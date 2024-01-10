@@ -32,6 +32,7 @@ Presented at `geneva.rb`, **The** [Geneva Ruby Meetup](https://www.meetup.com/ge
 - Strada bridges native components such as buttons to html / JS
   - This existed before Strada via [manual config](https://github.com/hotwired/turbo-ios/blob/main/Docs/Advanced.md#native---javascript-integration)
   - Strada will likely be improved to reduce configuration code
+- [TurboNavigator](https://github.com/joemasilotti/TurboNavigator) helps with modals and [will be upstreamed to Turbo iOS](https://github.com/hotwired/turbo-ios/pull/158)
 - Turbo Native iOS apps are being accepted to the Apple App Store, although it is recommended to include some native components, such as a tab bar or push notifications. If it is _only_ wrapping a webview it will likely be rejected.
 - Once the app is submitted to the app store, it can be changed without a resubmission
 - An alternative to ReactNative etc: just code one app and progressively enhance it to be more native.
