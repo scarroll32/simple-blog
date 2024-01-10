@@ -1,4 +1,6 @@
-Presented at the `geneva.rb`, the [Geneva Ruby Meetup](https://www.meetup.com/geneva-rb/events/297635660/) on 10 January 2024. 
+
+
+Presented at `geneva.rb`, **The** [Geneva Ruby Meetup](https://www.meetup.com/geneva-rb/events/297635660/), on 10 January 2024. 
 
 ## To use this repo
 
